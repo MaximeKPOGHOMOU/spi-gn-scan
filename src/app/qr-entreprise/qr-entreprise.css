@@ -60,7 +60,7 @@
 /* BOUTON */
 .menu-btn {
   width: 100%;
-  background: #0b487e;
+    background: linear-gradient(180deg, #0b487e, #d21919);
   color: white;
   border: none;
   padding: 14px;
@@ -68,10 +68,6 @@
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.menu-btn:hover {
-  background: #1565c0;
 }
 
 /* SECTION INFO */
@@ -326,7 +322,7 @@
 .map-button {
     display: block;
     text-align: center;
-    background: #0b487e;
+    background: linear-gradient(180deg, #0b487e, #d21919);
     color: white;
     padding: 12px;
     border-radius: 12px;
@@ -335,9 +331,6 @@
     transition: 0.2s ease;
 }
 
-.map-button:hover {
-    background: #0b487e;
-}
 
 /* CARTE À PROPOS */
 .about-card {
