@@ -79,6 +79,17 @@
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid #0b487e;
+}
+
+.about-highlight {
+    margin-top: 15px;
+    padding: 12px;
+    background: #ffffff;
+    border-left: 4px solid #0b487e;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #0b487e;
 }
 
 /* LIGNE */
