@@ -25,7 +25,7 @@
         <div class="info">
             <div class="row">
                 <span class="icon">🕒</span>
-                <span>Heures d'ouverture du bureau:</span>
+                <span>Horaires du bureau administratif:</span>
                 <span [ngClass]="isOpen ? 'open' : 'closed'">
                     {{ isOpen ? 'Ouvert' : 'Fermé' }}
                 </span>
@@ -55,295 +55,291 @@
                 <span>Vendredi :</span>
                 <span>08h30 - 17h30</span>
             </div>
+            <div class="schedule weekend">
 
-            <div class="schedule">
-                <span>Samedi :</span>
-                <span class="closed">Fermé</span>
+                <div class="note">
+                    👮 <span>Nos agents assurent la surveillance 7j/7.</span>
+                </div>
             </div>
+            <!-- ADRESSE MODERNE -->
+            <div class="info social-media">
 
-            <div class="schedule">
-                <span>Dimanche :</span>
-                <span class="closed">Fermé</span>
+                <h3 class="address-title">Adresse</h3>
+
+                <div class="address-item">
+                    <div class="icon-circle">
+                        <span>🌐</span>
+                    </div>
+
+                    <div class="address-text">
+                        <small>Localisation</small>
+                        <strong>Kipé Kakimbo, C-Ratoma, Conakry</strong>
+                    </div>
+                </div>
+
+                <a class="map-button"
+                    href="https://www.google.com/maps/search/?api=1&query=Kipé+Kakimbo,+C-Ratoma,+Conakry"
+                    target="_blank">
+                    Ouvrir dans Google Maps
+                </a>
+
             </div>
+            <!-- RÉSEAUX SOCIAUX MODERNES -->
+            <div class="info social-media">
+
+                <h3 class="social-title">Nos réseaux sociaux</h3>
+
+                <!-- Facebook -->
+                <div class="social-item">
+                    <div class="icon-circle">
+                        <span>📘</span>
+                    </div>
+                    <div class="social-text">
+                        <small>Facebook</small>
+                        <a href="https://www.facebook.com/toncompte" target="_blank">
+                            Voir la page
+                        </a>
+                    </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="social-item">
+                    <div class="icon-circle">
+                        <span>💬</span>
+                    </div>
+                    <div class="social-text">
+                        <small>WhatsApp</small>
+                        <a href="https://wa.me/224610008658" target="_blank">
+                            Discuter sur WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Instagram (optionnel) -->
+                <div class="social-item">
+                    <div class="icon-circle">
+                        <span>📸</span>
+                    </div>
+                    <div class="social-text">
+                        <small>Instagram</small>
+                        <a href="https://www.instagram.com/toncompte" target="_blank">
+                            Voir le profil
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- COORDONNÉES -->
+            <div class="info social-media">
+                <h3 class="contact-title">Coordonnées</h3>
+
+                <!-- Nom -->
+                <div class="contact-item">
+                    <div class="icon-circle">
+                        <span class="material">👤</span>
+                    </div>
+                    <div class="contact-text">
+                        <small>Nom</small>
+                        <strong>SECURITE PREVENTION INCENDIE GUINEE</strong>
+                    </div>
+                </div>
+
+                <!-- Téléphone -->
+                <div class="contact-item">
+                    <div class="icon-circle">
+                        <span class="material">📞</span>
+                    </div>
+                    <div class="contact-text">
+                        <small>Téléphone</small>
+                        <a href="tel:+224610008500">+224 610 00 85 00 / </a>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-item">
+                    <div class="icon-circle">
+                        <span class="material">✉️</span>
+                    </div>
+                    <div class="contact-text">
+                        <small>Email</small>
+                        <a href="mailto:contact@spi-gn.com">contact@spi-gn.com</a>
+                    </div>
+                </div>
+
+                <!-- Adresse -->
+                <div class="contact-item">
+                    <div class="icon-circle">
+                        <span class="material">🌐</span>
+                    </div>
+                    <div class="contact-text">
+                        <small>Site web</small>
+                        <a href="https://spi-gn.com" target="_blank">spi-gn.com</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- À PROPOS -->
+            <div class="info social-media">
+
+                <h3 class="about-title">À propos de l’entreprise</h3>
+
+                <p class="about-text">
+                    <strong>SECURITE PREVENTION INCENDIE GUINEE (SPI-GN)</strong> est une entreprise spécialisée dans la
+                    prévention des risques incendie, la protection des personnes, des biens et des infrastructures.
+                    Nous accompagnons les entreprises, institutions et particuliers en proposant des solutions
+                    fiables, conformes aux normes de sécurité et adaptées à chaque environnement.
+                    Grâce à une équipe qualifiée et disponible <strong>24h/24 et 7j/7</strong>, nous assurons la
+                    prévention, l’assistance, la surveillance et l’intervention afin de garantir un cadre sûr
+                    et maîtrisé.
+                </p>
+
+                <div class="about-highlight">
+                    Votre sécurité est notre priorité.
+                </div>
+
+            </div>
+            <!-- NOS INSTALLATIONS -->
+            <div class="info social-media">
+
+                <h3 class="installations-title">Nos installations</h3>
+
+                <p class="installations-intro">
+                    SPI-GN propose des solutions complètes de sécurité incluant la prévention incendie,
+                    l’installation d’équipements de protection, la sécurité électronique, la géolocalisation GPS
+                    ainsi que des services professionnels de gardiennage pour assurer la sûreté permanente
+                    des personnes et des biens.
+                </p>
+                <div class="installations-list">
+
+                    <!-- SÉCURITÉ ÉLECTRONIQUE -->
+                    <div class="installation-item">
+                        <div class="icon-circle">🔐</div>
+                        <div class="installation-text">
+                            <strong>Sécurité électronique</strong>
+                            <span>Vidéosurveillance, contrôle d’accès, alarmes anti-intrusion et supervision à
+                                distance.</span>
+                        </div>
+                    </div>
+
+                    <!-- GARDIENNAGE -->
+                    <div class="installation-item">
+                        <div class="icon-circle">👮</div>
+                        <div class="installation-text">
+                            <strong>Gardiennage & Surveillance</strong>
+                            <span>Mise à disposition d’agents qualifiés pour la protection des sites, de jour comme de
+                                nuit.</span>
+                        </div>
+                    </div>
+
+                    <div class="installation-item">
+                        <div class="icon-circle">🧯</div>
+                        <div class="installation-text">
+                            <strong>Extincteurs</strong>
+                            <span>Fourniture, installation et vérification périodique.</span>
+                        </div>
+                    </div>
+
+                    <div class="installation-item">
+                        <div class="icon-circle">🚨</div>
+                        <div class="installation-text">
+                            <strong>Systèmes d’alarme incendie</strong>
+                            <span>Installation de dispositifs d’alerte et de détection.</span>
+                        </div>
+                    </div>
+
+                    <div class="installation-item">
+                        <div class="icon-circle">📟</div>
+                        <div class="installation-text">
+                            <strong>Détection automatique</strong>
+                            <span>Capteurs de fumée, chaleur et gaz conformes aux normes.</span>
+                        </div>
+                    </div>
+
+                    <div class="installation-item">
+                        <div class="icon-circle">🛑</div>
+                        <div class="installation-text">
+                            <strong>Signalisation de sécurité</strong>
+                            <span>Plans d’évacuation, balisage et éclairage de secours.</span>
+                        </div>
+                    </div>
+
+                    <div class="installation-item">
+                        <div class="icon-circle">🔧</div>
+                        <div class="installation-text">
+                            <strong>Maintenance & contrôle</strong>
+                            <span>Entretien régulier pour garantir le bon fonctionnement.</span>
+                        </div>
+                    </div>
+
+                    <!-- GPS & GÉOLOCALISATION -->
+                    <div class="installation-item">
+                        <div class="icon-circle">📡</div>
+                        <div class="installation-text">
+                            <strong>Solutions GPS & Géolocalisation</strong>
+                            <span>Installation de systèmes de suivi de véhicules et gestion de flotte en temps
+                                réel.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- FOOTER -->
+            <footer class="footer">
+
+                <div class="footer-container">
+
+                    <!-- ENTREPRISE -->
+                    <div class="footer-col">
+                        <h4>SPI-GN</h4>
+                        <p>
+                            SECURITE PREVENTION INCENDIE GUINEE est spécialisée dans la
+                            protection des personnes, des biens et des infrastructures.
+                            Nous intervenons 24h/24 et 7j/7 pour garantir votre sécurité.
+                        </p>
+                    </div>
+
+                    <!-- SERVICES -->
+                    <div class="footer-col">
+                        <h4>Nos Services</h4>
+                        <ul>
+                            <li>Prévention incendie</li>
+                            <li>Sécurité électronique</li>
+                            <li>Installation GPS</li>
+                            <li>Vidéosurveillance</li>
+                            <li>Gardiennage</li>
+                        </ul>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li>📍 Kipé Kakimbo, Ratoma, Conakry</li>
+                            <li>📞 +224 610 00 85 00 / 624 16 81 03</li>
+                            <li>✉️ contact@spi-gn.com</li>
+                        </ul>
+                    </div>
+
+                    <!-- ACTION -->
+                    <div class="footer-col">
+                        <h4>Besoin d’assistance ?</h4>
+                        <p>Notre équipe est disponible pour répondre à vos besoins.</p>
+
+                        <a href="https://wa.me/224123456789" class="footer-btn">
+                            Nous contacter
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- BAS FOOTER -->
+                <div class="footer-bottom">
+                    © 2026 SPI-GN — Tous droits réservés
+                </div>
+
+            </footer>
         </div>
-        <!-- ADRESSE MODERNE -->
-        <div class="info social-media">
 
-            <h3 class="address-title">Adresse</h3>
-
-            <div class="address-item">
-                <div class="icon-circle">
-                    <span>🌐</span>
-                </div>
-
-                <div class="address-text">
-                    <small>Localisation</small>
-                    <strong>Kipé Kakimbo, C-Ratoma, Conakry</strong>
-                </div>
-            </div>
-
-            <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Kipé+Kakimbo,+C-Ratoma,+Conakry"
-                target="_blank">
-                Ouvrir dans Google Maps
-            </a>
-
-        </div>
-        <!-- RÉSEAUX SOCIAUX MODERNES -->
-        <div class="info social-media">
-
-            <h3 class="social-title">Nos réseaux sociaux</h3>
-
-            <!-- Facebook -->
-            <div class="social-item">
-                <div class="icon-circle">
-                    <span>📘</span>
-                </div>
-                <div class="social-text">
-                    <small>Facebook</small>
-                    <a href="https://www.facebook.com/toncompte" target="_blank">
-                        Voir la page
-                    </a>
-                </div>
-            </div>
-
-            <!-- WhatsApp -->
-            <div class="social-item">
-                <div class="icon-circle">
-                    <span>💬</span>
-                </div>
-                <div class="social-text">
-                    <small>WhatsApp</small>
-                    <a href="https://wa.me/224610008658" target="_blank">
-                        Discuter sur WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <!-- Instagram (optionnel) -->
-            <div class="social-item">
-                <div class="icon-circle">
-                    <span>📸</span>
-                </div>
-                <div class="social-text">
-                    <small>Instagram</small>
-                    <a href="https://www.instagram.com/toncompte" target="_blank">
-                        Voir le profil
-                    </a>
-                </div>
-            </div>
-
-        </div>
-        <!-- COORDONNÉES -->
-        <div class="info social-media">
-            <h3 class="contact-title">Coordonnées</h3>
-
-            <!-- Nom -->
-            <div class="contact-item">
-                <div class="icon-circle">
-                    <span class="material">👤</span>
-                </div>
-                <div class="contact-text">
-                    <small>Nom</small>
-                    <strong>SECURITE PREVENTION INCENDIE GUINEE</strong>
-                </div>
-            </div>
-
-            <!-- Téléphone -->
-            <div class="contact-item">
-                <div class="icon-circle">
-                    <span class="material">📞</span>
-                </div>
-                <div class="contact-text">
-                    <small>Téléphone</small>
-                    <a href="tel:+224610008500">+224 610 00 85 00 </a>
-                </div>
-            </div>
-
-            <!-- Email -->
-            <div class="contact-item">
-                <div class="icon-circle">
-                    <span class="material">✉️</span>
-                </div>
-                <div class="contact-text">
-                    <small>Email</small>
-                    <a href="mailto:contact@spi-gn.com">contact@spi-gn.com</a>
-                </div>
-            </div>
-
-            <!-- Adresse -->
-            <div class="contact-item">
-                <div class="icon-circle">
-                    <span class="material">🌐</span>
-                </div>
-                <div class="contact-text">
-                    <small>Site web</small>
-                    <a href="https://spi-gn.com" target="_blank">spi-gn.com</a>
-                </div>
-            </div>
-
-
-        </div>
-        <!-- À PROPOS -->
-        <div class="info social-media">
-
-            <h3 class="about-title">À propos de l’entreprise</h3>
-
-            <p class="about-text">
-                <strong>SECURITE PREVENTION INCENDIE GUINEE (SPI-GN)</strong> est une entreprise spécialisée
-                dans la prévention des risques incendie, la protection des personnes, des biens et des
-                infrastructures.
-                Nous accompagnons les entreprises, institutions et particuliers en proposant des solutions
-                fiables, conformes aux normes de sécurité et adaptées à chaque environnement.
-                Grâce à une équipe qualifiée et disponible <strong>24h/24 et 7j/7</strong>, nous assurons la
-                prévention, l’assistance, la surveillance et l’intervention afin de garantir un cadre sûr
-                et maîtrisé.
-            </p>
-
-            <div class="about-highlight">
-                Votre sécurité est notre priorité.
-            </div>
-
-        </div>
-        <!-- NOS INSTALLATIONS -->
-        <div class="info social-media">
-
-            <h3 class="installations-title">Nos installations</h3>
-
-            <p class="installations-intro">
-                SPI-GN propose des solutions complètes de sécurité incluant la prévention incendie,
-                l’installation d’équipements de protection, la sécurité électronique, la géolocalisation GPS
-                ainsi que des services professionnels de gardiennage pour assurer la sûreté permanente
-                des personnes et des biens.
-            </p>
-            <div class="installations-list">
-
-                <!-- SÉCURITÉ ÉLECTRONIQUE -->
-                <div class="installation-item">
-                    <div class="icon-circle">🔐</div>
-                    <div class="installation-text">
-                        <strong>Sécurité électronique</strong>
-                        <span >Vidéosurveillance, contrôle d’accès, alarmes anti-intrusion et supervision à
-                            distance.</span>
-                    </div>
-                </div>
-
-                <!-- GARDIENNAGE -->
-                <div class="installation-item">
-                    <div class="icon-circle">👮</div>
-                    <div class="installation-text">
-                        <strong>Gardiennage & Surveillance</strong>
-                        <span>Mise à disposition d’agents qualifiés pour la protection des sites, de jour comme de
-                            nuit.</span>
-                    </div>
-                </div>
-
-                <div class="installation-item">
-                    <div class="icon-circle">🧯</div>
-                    <div class="installation-text">
-                        <strong>Extincteurs</strong>
-                        <span>Fourniture, installation et vérification périodique.</span>
-                    </div>
-                </div>
-
-                <div class="installation-item">
-                    <div class="icon-circle">🚨</div>
-                    <div class="installation-text">
-                        <strong>Systèmes d’alarme incendie</strong>
-                        <span>Installation de dispositifs d’alerte et de détection.</span>
-                    </div>
-                </div>
-
-                <div class="installation-item">
-                    <div class="icon-circle">📟</div>
-                    <div class="installation-text">
-                        <strong>Détection automatique</strong>
-                        <span>Capteurs de fumée, chaleur et gaz conformes aux normes.</span>
-                    </div>
-                </div>
-
-                <div class="installation-item">
-                    <div class="icon-circle">🛑</div>
-                    <div class="installation-text">
-                        <strong>Signalisation de sécurité</strong>
-                        <span>Plans d’évacuation, balisage et éclairage de secours.</span>
-                    </div>
-                </div>
-
-                <div class="installation-item">
-                    <div class="icon-circle">🔧</div>
-                    <div class="installation-text">
-                        <strong>Maintenance & contrôle</strong>
-                        <span>Entretien régulier pour garantir le bon fonctionnement.</span>
-                    </div>
-                </div>
-
-                <!-- GPS & GÉOLOCALISATION -->
-                <div class="installation-item">
-                    <div class="icon-circle">📡</div>
-                    <div class="installation-text">
-                        <strong>Solutions GPS & Géolocalisation</strong>
-                        <span>Installation de systèmes de suivi de véhicules et gestion de flotte en temps réel.</span>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- FOOTER -->
-        <footer class="footer">
-
-            <div class="footer-container">
-
-                <!-- ENTREPRISE -->
-                <div class="footer-col">
-                    <h4>SPI-GN</h4>
-                    <p>
-                        SECURITE PREVENTION INCENDIE GUINEE est spécialisée dans la
-                        protection des personnes, des biens et des infrastructures.
-                        Nous intervenons 24h/24 et 7j/7 pour garantir votre sécurité.
-                    </p>
-                </div>
-
-                <!-- SERVICES -->
-                <div class="footer-col">
-                    <h4>Nos Services</h4>
-                    <ul>
-                        <li>Prévention incendie</li>
-                        <li>Sécurité électronique</li>
-                        <li>Installation GPS</li>
-                        <li>Vidéosurveillance</li>
-                        <li>Gardiennage</li>
-                    </ul>
-                </div>
-
-                <!-- CONTACT -->
-                <div class="footer-col">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li>📍 Kipé Kakimbo, Ratoma, Conakry</li>
-                        <li>📞 +224 610 00 85 00 / 624 16 81 03</li>
-                        <li>✉️ contact@spi-gn.com</li>
-                    </ul>
-                </div>
-
-                <!-- ACTION -->
-                <div class="footer-col">
-                    <h4>Besoin d’assistance ?</h4>
-                    <p>Notre équipe est disponible pour répondre à vos besoins.</p>
-
-                    <a href="https://wa.me/224123456789" class="footer-btn">
-                        Nous contacter
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- BAS FOOTER -->
-            <div class="footer-bottom">
-                © 2026 SPI-GN — Tous droits réservés
-            </div>
-
-        </footer>
     </div>
-
-</div>

@@ -506,3 +506,14 @@
     font-size: 13px;
     color: #64748b;
 }
+
+.weekend span:last-child {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
