@@ -54,6 +54,7 @@
   color: #777;
   font-size: 14px;
   margin: 8px 0 20px;
+  text-align: center;
 }
 
 /* BOUTON */
@@ -76,20 +77,11 @@
   max-width: 400px;
   margin: auto;
   border-radius: 20px 20px 0 0;
-  padding: 20px;
+  padding: 0px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   border-top: 4px solid #0b487e;
 }
-.weekend span:last-child {
-    color: #28a745;
-    font-weight: bold;
-}
 
-.note {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #555;
-}
 
 .about-highlight {
     margin-top: 15px;
@@ -118,6 +110,7 @@
   font-weight: 600;
 }
 
+
 /* HORAIRES */
 .schedule {
   display: flex;
@@ -125,6 +118,12 @@
   margin-top: 15px;
   color: #555;
   font-size: 14px;
+}
+
+.note{
+    color: rgb(5, 216, 68);
+    font-weight: 500;
+    
 }
 
 .info {
