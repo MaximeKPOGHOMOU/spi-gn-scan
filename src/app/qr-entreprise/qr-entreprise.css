@@ -368,12 +368,23 @@
     color: #0b487e;
 }
 
+
 /* CARTE INSTALLATIONS */
 .installations-card {
     background: #f4f6f8;
     border-radius: 18px;
     padding: 22px;
     margin-top: 20px;
+}
+
+.installation-item {
+    margin-top: 15px;
+    padding: 12px;
+    background: #ffffff;
+    border-left: 4px solid #0b487e;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #0b487e;
 }
 
 /* TITRE */
