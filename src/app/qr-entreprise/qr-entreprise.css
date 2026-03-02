@@ -271,13 +271,7 @@
     text-decoration: underline;
 }
 
-/* PETITE ANIMATION AU SURVOL */
-.social-item:hover {
-    background: #eef2f6;
-    border-radius: 12px;
-    padding-left: 8px;
-    transition: 0.2s ease;
-}
+
 /* CARTE ADRESSE */
 .address-card {
     background: #f4f6f8;
