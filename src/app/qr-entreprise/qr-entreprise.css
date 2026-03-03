@@ -60,7 +60,7 @@
 /* BOUTON */
 .menu-btn {
   width: 100%;
-    background: linear-gradient(180deg, #0b487e, #d21919);
+background: linear-gradient(180deg, #0b487e, #d21919);
   color: white;
   border: none;
   padding: 14px;
@@ -363,7 +363,7 @@
 
 /* TEXTE */
 .about-text {
-    font-size: 14.5px;
+    font-size: 14px;
     color: #444;
     line-height: 1.6;
     margin-bottom: 12px;
@@ -410,7 +410,7 @@
 
 /* INTRO */
 .installations-intro {
-    font-size: 14.5px;
+    font-size: 14px;
     color: #555;
     margin-bottom: 18px;
     line-height: 1.6;
