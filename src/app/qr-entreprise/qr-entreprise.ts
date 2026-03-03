@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-qr-entreprise',
@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './qr-entreprise.css',
 })
 export class QrEntreprise {
-isOpen: boolean = false;
+  isOpen: boolean = false;
 
   ngOnInit() {
     this.checkOpeningHours();
@@ -29,4 +29,24 @@ isOpen: boolean = false;
 
     this.isOpen = isWeekDay && currentTime >= openTime && currentTime < closeTime;
   }
+
+  isSheetOpen = false;
+  showFab = false;
+
+  toggleSheet() {
+    this.isSheetOpen = !this.isSheetOpen;
+  }
+
+
+
+@HostListener('window:scroll', [])
+onWindowScroll() {
+  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollPosition > 200) {
+    this.showFab = true;
+  } else {
+    this.showFab = false;
+  }
+}
 }

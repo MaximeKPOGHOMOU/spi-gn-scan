@@ -12,7 +12,8 @@
         <div class="card-content">
             <h2>Toujours à votre écoute</h2>
             <p class="subtitle">
-               Une protection continue 24h/24 et 7j/7 pour garantir la sûreté de vos espaces, de vos équipes et de vos installations.
+                Une protection continue 24h/24 et 7j/7 pour garantir la sûreté de vos espaces, de vos équipes et de vos
+                installations.
             </p>
             <a href="https://spi-gn.com" target="_blank">
                 <button class="menu-btn">
@@ -20,7 +21,7 @@
                 </button>
             </a>
         </div>
-        
+
         <!-- HORAIRES -->
         <div class="info">
             <div class="row">
@@ -144,7 +145,7 @@
                     <strong>SECURITE PREVENTION INCENDIE GUINEE</strong>
                 </div>
             </div>
-            
+
             <div class="contact-item">
                 <div class="icon-circle">
                     <span class="material">📞</span>
@@ -206,7 +207,8 @@
 
             <p class="about-text">
                 <strong>SECURITE PREVENTION INCENDIE GUINEE (SPI-GN)</strong> est une entreprise spécialisée dans la
-                prévention des risques incendie, la protection des personnes, des biens et des infrastructures. Nous accompagnons les entreprises, institutions et particuliers en proposant des solutions
+                prévention des risques incendie, la protection des personnes, des biens et des infrastructures. Nous
+                accompagnons les entreprises, institutions et particuliers en proposant des solutions
                 fiables, conformes aux normes de sécurité et adaptées à chaque environnement.
                 Grâce à une équipe qualifiée et disponible <strong>24h/24 et 7j/7</strong>, nous assurons la
                 prévention, l’assistance, la surveillance et l’intervention afin de garantir un cadre sûr
@@ -358,5 +360,45 @@
             </div>
 
         </footer>
+        <div class="bottom-sheet" [class.active]="isSheetOpen">
+
+            <!-- BOUTON FLOTTANT ICI -->
+            <button class="fab" *ngIf="showFab" (click)="toggleSheet()">
+                ⋮
+            </button>
+
+            <div class="sheet-handle"></div>
+
+            <!-- Header -->
+            <div class="sheet-header">
+                <h3>Contact rapide</h3>
+                <button class="close-x" (click)="toggleSheet()">✕</button>
+            </div>
+
+            <div class="sheet-content">
+
+                <a href="tel:+224610008500" class="sheet-btn">
+                    Appeler
+                </a>
+
+                <a href="mailto:contact@spi-gn.com" class="sheet-btn">
+                    Envoyer un email
+                </a>
+
+                <a href="https://wa.me/224610008658" target="_blank" class="sheet-btn">
+                    WhatsApp
+                </a>
+
+                <a href="https://spi-gn.com" target="_blank" class="sheet-btn">
+                    Site web
+                </a>
+
+            </div>
+
+            <!-- Bouton fermer -->
+            <div class="cancel-btn" (click)="toggleSheet()">
+                FERMER
+            </div>
+        </div>
 
     </div>
