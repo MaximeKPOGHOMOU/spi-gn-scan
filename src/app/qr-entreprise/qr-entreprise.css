@@ -83,15 +83,6 @@ background: linear-gradient(180deg, #0b487e, #d21919);
 }
 
 
-.about-highlight {
-    margin-top: 15px;
-    padding: 12px;
-    background: #ffffff;
-    border-left: 4px solid #0b487e;
-    border-radius: 10px;
-    font-weight: 600;
-    color: #0b487e;
-}
 
 /* LIGNE */
 .row {
@@ -375,10 +366,12 @@ background: linear-gradient(180deg, #0b487e, #d21919);
     margin-top: 15px;
     padding: 12px;
     background: #ffffff;
-    border-left: 4px solid #0b487e;
-    border-radius: 10px;
+    /* border-left: 4px solid #0b487e; */
+    /* border-radius: 10px; */
     font-weight: 600;
     color: #0b487e;
+    text-align: center;
+    font-size: 12px;
 }
 
 
