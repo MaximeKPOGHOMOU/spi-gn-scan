@@ -22,7 +22,7 @@
   background: white;
   width: 100%;
   margin: -70px auto 20px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0 ;
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
   overflow: hidden;
 }
@@ -461,6 +461,7 @@ background: linear-gradient(180deg, #0b487e, #d21919);
     color: #cbd5e1;
     margin-top: 40px;
     font-size: 14px;
+    
 }
 
 /* CONTAINER */
@@ -511,7 +512,8 @@ background: linear-gradient(180deg, #0b487e, #d21919);
 .footer-bottom {
     text-align: center;
     padding: 15px;
-    border-top: 1px solid #1e293b;
+    border-top: 4px solid #1e293b;
     font-size: 13px;
     color: #64748b;
+      border-radius: 20px 20px 0 0 ;
 }
