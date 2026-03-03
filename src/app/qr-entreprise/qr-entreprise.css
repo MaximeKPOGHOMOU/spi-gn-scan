@@ -388,6 +388,7 @@ background: linear-gradient(180deg, #0b487e, #d21919);
     padding: 12px;
     background: #ffffff;
     border-left: 4px solid #0b487e;
+    border-right: 4px solid #0b487e;
     border-radius: 10px;
     font-weight: 600;
     color: #0b487e;
